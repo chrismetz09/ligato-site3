@@ -89,12 +89,12 @@ params:
     - title: App builder
       icon: mouse-globe
       text: This is some explanatory text that is on two rows.
-      url: "test"
+      url: "splash/test"
       buttonText: Free trial
     - title: Cloud integration
       icon: laptop-cloud
       text: This is some explanatory text that is on two rows
-      url: "test2"
+      url: "splash/test2"
       buttonText: Get started
     - title: Add-ons & plugins
       icon: plug-cloud
