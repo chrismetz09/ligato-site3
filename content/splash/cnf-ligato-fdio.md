@@ -3,6 +3,8 @@ title = "CNFs with a Dose of Ligato and FD.io/VPP"
 author = "Chris Metz"
 date = "17 Nov 2018"
 layout = "content"
+[blackfriday]
+  extensions = ["hardLineBreak"]
 +++ 
 Cloud Native Network Functions (CNFs) are containerized instances of a classic physical or virtual network functions (VNF). A fast dataplane incorporating current and future VNFs functions is tablestakes. Exposing the CNF dataplane to applications and plugins requires a control plane agent with APIs.
  <!--more--> 
@@ -14,13 +16,14 @@ Many Public, private and hybrid cloud operators have arrived at the on-ramp to �
 Carving up application monoliths into smaller chunks of code called microservices; packaging up microservices into containers; housing said containers in PODs running on hosts (virtual or physical); using Kubernetes to orchestrate and schedule POD placements commanded by applications across standard Kubernetes (K8S) APIs - is THE way – the cloud native way.
 
 Applications are king in cloud native land. But, you don’t hear a whole lot about networking in this space. Why is that so? A few thoughts. 
-
+ 
 * __App developers don’t care about networking__ (sadly, treated as a gut course for many comp sci majors). They care about apps, how quickly they can be hacked, scrubbed of bugs and deployed to the cloud. 
-
+  
 * __Networking has its own language spoken only by fellow network geeks__ (full disclosure: I am a network geek). They get IPv4, ACLs, /32s, BGP, VXLAN tunnels, IPv6, Segment Routing, MPLS GRE, Service Chains and all that stuff (please consult your favorite network lexicon for more). What does all of that mean to the cloud native apps developer!? Nothing. Zero. Zip.
 
 * __Speed mismatch between classic and cloud native network deployment and operations.__ The former is big monolithic “boxes” (physical or virtual), installed in one location in the network by smart network people, occasionally visited by smart network people for upgrades/troubleshooting (this is mutable infrastructure! See below) and generally left alone. Forever. The latter is bang-bang: PODs up! Here are the PODs you can talk to! Here are the services. Speak. PODs Out! All automated. All game time decisions. This is an absurdly simple comparison but you get the picture.
 
+<br>
 To be fair, Kubernetes (k8s) does define the [Container Network Interface (CNI)](https://kubernetes.io/docs/concepts/extend-kubernetes/compute-storage-net/network-plugins/) – an API for network plugins that “bootstrap” and manage inter-POD communications. In other words, this provides network connectivity and makes the network transparent to PODs. That’s all good, but it also means PODs can’t really use other network services, such as security or QoS. Furthermore, k8s defines services and policies, which also have to be mapped into network configurations but there is no formal API to achieve this. Therefore it’s up to the network plugin implementers to figure out the mapping. 
 
 Fortunately, the cloud native community is beginning to realize that networking is really important. Spurred on by innovations such as [FD](https://fd.io/).io (user space software data plane) and [BPF](https://opensource.com/article/17/9/intro-ebpf) (enhanced Berkeley Packet Filter), throughput is now seen as critical. The need for cloud native network functions (CNF) has been identified. CNF-enabling open source projects are active and code is up there in github repos. Vendors (legacy “big box” and new startups) are implementing and shipping CNFs. 
