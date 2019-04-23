@@ -23,6 +23,7 @@ params:
     # Hero image (from /images/___)
     image: illustrations/worker.svg
     # Footer logos (from /images/logos/clients/___.svg)
+    # Metz: replace client logos with FD.io, CNCF, K8S, Contiv VPP
     clientlogos:
     - systek
     - tribe
@@ -35,61 +36,61 @@ params:
     url: /
   - title: Documentation
     url: "https://ligato.readthedocs.io/en/latest/"
-  - title: Blog
+  - title: Github
     sublinks:
-    - title: CNF with Ligato and VPP
-      url: "/cnf-ligato-fdio"
-    - title: Confd for CNFs
-      url: /
-#    - title: Dropdown item
-#      url: /
+    - title: CN Infra
+      url: "https://github.com/ligato/cn-infra"
+    - title: VPP Agent
+      url: "https://github.com/ligato/vpp-agent"
+    - title: All Repos
+      url: "https://github.com/ligato"
 #  - title: Log in
 #    url: /
 #  - title: Sign up
 #    url: /
 #    button: true
-#  sidebar:
-#    # Logo (from /images/logos/___.svg)
-#    logo: fresh-square
-#    sections:
-#    - title: User
-#      icon: user
-#      links:
-#      - text: Profile
-#        url: /
-#      - text: Account
-#        url: /
-#      - text: Settings
-#        url: /
-#    - title: Messages
-#      icon: envelope
-#      links:
-#      - text: Inbox
-#        url: /
-#      - text: Compose
-#        url: /
-#    - title: Images
-#      icon: image
-#      links:
-#      - text: Library
-#        url: /
-#      - text: Upload
-#        url: /
-#    - title: Settings
-#      icon: cog
-#      links:
-#      - text: User settings
-#        url: /
-#      - text: App settings
-#        url: /
+  sidebar:
+    # Logo (from /images/logos/___.svg)
+    logo: fresh-square
+    sections:
+    - title: User
+      icon: user
+      links:
+      - text: Profile
+        url: /
+      - text: Account
+        url: /
+      - text: Settings
+        url: /
+    - title: Messages
+      icon: envelope
+      links:
+      - text: Inbox
+        url: /
+      - text: Compose
+        url: /
+    - title: Images
+      icon: image
+      links:
+      - text: Library
+        url: /
+      - text: Upload
+        url: /
+    - title: Settings
+      icon: cog
+      links:
+      - text: User settings
+        url: /
+      - text: App settings
+        url: /
   section1:
     title:
-    subtitle: with great responsibility
+    subtitle: Go Build CNFs!
     tiles:
-    - title: App builder
+    - title: FD.io/VPP
       icon: mouse-globe
       text: This is some explanatory text that is on two rows.
-      url: "splash/test"
+      url: "architecture/test"
       buttonText: Free trial
     - title: Cloud integration
       icon: laptop-cloud
