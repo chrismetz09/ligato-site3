@@ -2,7 +2,7 @@
 title = "CNFs with a Dose of Ligato and FD.io/VPP"
 author = "Chris Metz"
 date = "17 Nov 2018"
-layout = "content"
+layout = "blogdata"
 sidebar = "true"
 sidebarlogo = "fresh-white-alt"
 [blackfriday]

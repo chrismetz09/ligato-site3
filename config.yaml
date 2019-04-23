@@ -32,13 +32,15 @@ params:
     - gutwork
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  - title: Features
-    url: /
+  - title: Blog
+    sublinks:
+      - title: CNFs Ligato/VPP Dose
+        url: "blog/cnf-ligato-fdio"
   - title: Documentation
     url: "https://ligato.readthedocs.io/en/latest/"
   - title: Github
     sublinks:
-    - title: CN Infra
+    - title: Infra
       url: "https://github.com/ligato/cn-infra"
     - title: VPP Agent
       url: "https://github.com/ligato/vpp-agent"
@@ -85,59 +87,59 @@ params:
         url: /
   section1:
     title:
-    subtitle: Go Build CNFs!
+    subtitle: Build CNFs!
     tiles:
-    - title: FD.io/VPP
+    - title: CNF
       icon: mouse-globe
-      text: This is some explanatory text that is on two rows.
-      url: "architecture/test"
-      buttonText: Free trial
-    - title: Cloud integration
+      text: Virtual Network Functions in Containers
+      url: "cnf/cnf-def"
+      buttonText: Learn More
+    - title: Ligato Agent
       icon: laptop-cloud
-      text: This is some explanatory text that is on two rows
-      url: "splash/test2"
-      buttonText: Get started
-    - title: Add-ons & plugins
+      text: Agents/Plugins for CNF Control & Management
+      url: "architecture/test2"
+      buttonText: Learn More
+    - title: Use Cases
       icon: plug-cloud
-      text: This is some explanatory text that is on two rows
-      url: "splash/cnf-ligato-fdio"
-      buttonText: Get started
-  section2:
-    title: You're here because you want the best
-    subtitle: And we know it
-    features:
-    - title: Powerful and unified interface
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      # Icon (from /images/illustrations/icons/___.svg)
-      icon: laptop-globe
-    - title: Cross-device synchronisation
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: doc-sync
-    - title: Nomad system
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: mobile-feed
-  section3:
-    title: One platform
-    subtitle: To rule them all
-    image: illustrations/mockups/app-mockup.png
-    buttonText: Get started
-    buttonLink: "#"
-  section4:
-    title: Our Clients love us!
-    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
-    clients:
-    - name: Irma Walters
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Accountant
-      img: 1
-    - name: John Bradley
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Financial Analyst
-      img: 2
-    - name: Gary Blackman
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: HR Manager
-      img: 3
+      text: Solutions enabled by the Ligato Agent
+      url: "use-cases/ligato-use-cases"
+      buttonText: Learn More
+#  section2:
+#    title: You're here because you want the best
+#    subtitle: And we know it
+#    features:
+#    - title: Powerful and unified interface
+#      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+#      # Icon (from /images/illustrations/icons/___.svg)
+#      icon: laptop-globe
+#    - title: Cross-device synchronisation
+#      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+#      icon: doc-sync
+#    - title: Nomad system
+#      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+#      icon: mobile-feed
+#  section3:
+#    title: One platform
+#    subtitle: To rule them all
+#    #image: illustrations/mockups/app-mockup.png
+#    buttonText: Get started
+#    buttonLink: "#"
+#  section4:
+#    title: Our Clients love us!
+#    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
+#    clients:
+#    - name: Irma Walters
+#      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+#      job: Accountant
+#      img: 1
+#    - name: John Bradley
+#      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+#      job: Financial Analyst
+#      img: 2
+#    - name: Gary Blackman
+#      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
+#      job: HR Manager
+#      img: 3
   footer:
     # Logo (from /images/logos/___)
     logo: fresh-white-alt.svg
