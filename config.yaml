@@ -97,7 +97,7 @@ params:
     - title: Ligato Agent
       icon: laptop-cloud
       text: Agents/Plugins for CNF Control & Management
-      url: "architecture/test2"
+      url: "architecture/lig-agent-stack"
       buttonText: Learn More
     - title: Use Cases
       icon: plug-cloud
