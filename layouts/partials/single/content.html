@@ -7,7 +7,10 @@
         <div class="divider"></div>
       </div>
     </div>
-    {{ .Content }}
-    <script>console.log({{"in the content html"}})</script>
+    <!--Metz: applied markdown-body class to content-->
+    <div class="block markdown-body">
+      <p>{{ .Content | markdownify }}</p>
+    </div>
+    <script>console.log({{"in the partials/single/content html"}})</script>
   </div>
 </section>
