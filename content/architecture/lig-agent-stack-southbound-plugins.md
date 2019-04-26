@@ -8,6 +8,6 @@ draft: true
 
 
 
-{{< figure src="/images/ligato/ligato-agent-stack-southbound-plugins.svg" >}}
+{{< figure src="/images/ligato/ligato-agent-stack-southbound-plugins3b.svg" >}}
 
 Ligato Agent provides a suite of southbound plugins to program and manage both FD.io/VPP and the Linux Kernel dataplanes.
