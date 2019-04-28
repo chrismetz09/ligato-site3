@@ -53,7 +53,7 @@ params:
 #    button: true
   sidebar:
     # Logo (from /images/logos/___.svg)
-    logo: fresh-square
+    logo: ligato-diamond
     sections:
     - title: User
       icon: user
@@ -95,12 +95,12 @@ params:
       url: "cnf/cnf-def"
       buttonText: Learn More
     - title: Ligato Agent
-      icon: laptop-cloud
+      icon: plug-cloud
       text: Agents/Plugins for CNF Control & Management
       url: "architecture/lig-agent-stack"
       buttonText: Learn More
     - title: Use Cases
-      icon: plug-cloud
+      icon: laptop-cloud
       text: Solutions enabled by the Ligato Agent
       url: "use-cases/ligato-use-cases"
       buttonText: Learn More
@@ -109,14 +109,14 @@ params:
     subtitle: for rapid innovation delivery
     features:
     - title: High Performance/Feature-Rich Dataplane
-      text: 14Gb per core performance
+      text: Containerized version bring FD.io/VPP to Cloud Native Environments
       # Icon (from /images/illustrations/icons/___.svg)
       icon: fdio
     - title: Written in Golang
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      text: Goto programming language for its peformance and concurrency
       icon: golang
-    - title: Kubernetes Enabled
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+    - title: Kubernetes
+      text: Contains all of the hooks for development and operations in k8s clusters
       icon: k8s-logo
 #  section3:
 #    title: One platform
@@ -142,20 +142,20 @@ params:
 #      img: 3
   footer:
     # Logo (from /images/logos/___)
-    logo: fresh-white-alt.svg
+    logo: ligato-diamond.svg
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
-    - link: https://github.com/lucperkins/github-fresh
+    - link: https://github.com/ligato
       # Icons are from Font Awesome
       icon: github
-    - link: https://dribbble.com/#
-      icon: dribbble
-    - link: https://facebook.com/#
-      icon: facebook
+#    - link: https://dribbble.com/#
+#      icon: dribbble
+#    - link: https://facebook.com/#
+#      icon: facebook
     - link: https://twitter.com/lucperkins
       icon: twitter
-    - link: https://bitbucket.org/#
-      icon: bitbucket
+    - link: https:ligato.slack.com
+      icon: slack
     bulmalogo: true
     quicklinks:
       column1:
