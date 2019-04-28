@@ -2753,6 +2753,11 @@ a.box:active {
     height: 3rem;
     width: 3rem; }
 
+.image-section2 {
+  height: 80px;
+  width: 80px;
+  padding-top: 38px; }
+
 .image {
   display: block;
   position: relative; }

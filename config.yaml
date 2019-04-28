@@ -104,20 +104,20 @@ params:
       text: Solutions enabled by the Ligato Agent
       url: "use-cases/ligato-use-cases"
       buttonText: Learn More
-#  section2:
-#    title: You're here because you want the best
-#    subtitle: And we know it
-#    features:
-#    - title: Powerful and unified interface
-#      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-#      # Icon (from /images/illustrations/icons/___.svg)
-#      icon: laptop-globe
-#    - title: Cross-device synchronisation
-#      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-#      icon: doc-sync
-#    - title: Nomad system
-#      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-#      icon: mobile-feed
+  section2:
+    title: Leveraging the Best in Cloud Native
+    subtitle: for rapid innovation delivery
+    features:
+    - title: High Performance/Feature-Rich Dataplane
+      text: 14Gb per core performance
+      # Icon (from /images/illustrations/icons/___.svg)
+      icon: fdio
+    - title: Written in Golang
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      icon: golang
+    - title: Kubernetes Enabled
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+      icon: k8s-logo
 #  section3:
 #    title: One platform
 #    subtitle: To rule them all
